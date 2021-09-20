@@ -1,0 +1,135 @@
+/*
+Breakpoints
+960
+
+740
+
+*/
+/*NAV*/
+@media (max-width: 739px){
+    .menu-nav{
+        float: none;
+        clear: both;
+    }
+   
+}
+
+/*Intro*/
+@media(max-width: 739){
+    .intro{
+        padding: 40px 0;
+    }
+}
+/*Sobre*/
+@media (min-width: 740px) and (max-width:980px){
+    .sobre-container{
+        max-width: 720px;
+    }
+    .sobre{
+       width: 340px;
+   }
+}
+@media(max-width:739px){
+    .sobre-container{
+        max-width: 300px;
+    }
+    .sobre-item{
+        width: 300px;
+        margin: 0 auto;
+    }
+}
+/*produtos*/
+@media (min-width: 740px) and (max-width:980px){
+    .produtos-container{
+        max-width: 720px;
+        
+    }
+    .produtos-item{
+       width: 220px;
+       margin: 0 auto;
+       
+   }
+}
+@media(max-width:739px){
+    .produtos-container{
+        max-width: 300px;
+    }
+    .produtos-item{
+       margin: 0 auto 20px auto;
+    }
+}
+/*locais*/
+@media (min-width: 740px) and (max-width:980px){
+    .locais{
+        max-width: 720px;
+    }
+    .locais-item > div{
+        width: 340px;
+    }
+    .locais-item img{
+        width: 340px;
+    }
+
+}
+@media(max-width:739px){
+    .locais{
+        max-width: 300px;
+        width: 300px;
+        margin: 0;
+
+    }
+    .locais-item > div{
+
+        width: 300px;
+        margin: 0;
+    }
+
+}
+/*assine*/
+
+@media (min-width: 740px) and (max-width:980px){
+    .asine-conatiner{
+        max-width: 720px;
+
+    }
+    .assine-info{
+        width: 340px;
+
+    }
+    .assine fomr{
+        width: 340px;
+    }
+    .assine input{
+        width: 340px;
+    }
+
+}
+@media(max-width:739px){
+   
+     .assine-conatiner{
+         max-width: 300px;
+         
+     }
+     .assine-info , .assine form , .assine input{
+         width: 300px;
+         margin: 10px  0 0 0;
+     }
+}
+/*footer*/
+@media(max-width:739px){
+   
+   .footer-container{
+       max-width: 300px;
+   }
+   .footer p{
+       float: none;
+       margin:  0;
+   }
+   .footer img{
+       float: none;
+       margin:10px 0 ;
+   }
+   .menu-logo{
+    margin-left: 150px;
+}
+}
